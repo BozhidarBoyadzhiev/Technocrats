@@ -1,3 +1,3 @@
 # Technocrats
 
-Hello
+Hello.
