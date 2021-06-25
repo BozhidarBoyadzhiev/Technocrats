@@ -131,6 +131,18 @@ a:hover {
 	transition: 2s;
 }
 
+#solutions, #contacts {
+	position: absolute;
+	margin: 0;
+}
+
+#solutions {
+	left: 27px;
+}
+#contacts {
+	left: 34px;
+}
+
 .wave {
 	position: absolute;
 	top: 0;
