@@ -13,6 +13,7 @@ form {
 }
 
 .text-field {
+	outline:none;
 	margin-top: 3%;
 	padding-top: 6%;
 	padding: 20px;
@@ -59,14 +60,14 @@ form {
 	font-family: 'Roboto', sans-serif;
 }
 
-.facebook-icon, .instagram-icon {
+.facebook-icon, .github-icon {
 	position: absolute;
 	width: 5%;
 	top: 15%;
 	right: 30%;
 }
 
-.instagram-icon {
+.github-icon {
 	top: 30%;
 }
 
@@ -79,7 +80,7 @@ form {
 /* RESPONSIBLE FOR MOBILE DEVICES START */
 
 @media only screen and (max-width: 510px) {
-	.facebook-icon, .instagram-icon {
+	.facebook-icon, .github-icon {
 		position: static;
 		width: 80%;
 	}
@@ -88,11 +89,11 @@ form {
 		width: 25%;
 	}
 
-	.instagram-link {
+	.github-link {
 		width: 25%;
 	}
 
-	.instagram-icon {
+	.github-icon {
 		float: right;
 	}
 

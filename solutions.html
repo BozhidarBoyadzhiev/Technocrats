@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<script src="scripts/main_script.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/solutions-style.css">
 </head>
 
 <body>
@@ -13,9 +13,65 @@
 	<nav id="navbar">
 		<script src="scripts/navbar.js"></script>
 	</nav>
-	<div>
-		
+
+	<div class="content">
+		<div class="left-side">
+			<div class="solution-card">
+				<h1>Lorem ipsum 1</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<button id="first_modal_button">Open</button>
+					<div id="first_modal" class="first-modal">
+					  <div class="modal-content">
+					    <span class="first_button_close close">&times;</span>
+					    <p>Some text in the Modal..</p>
+					  </div>
+					</div>
+			</div>
+			<br>
+			<div class="solution-card">
+				<h1>Lorem ipsum 2</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<button id="second_modal_button">Open</button>
+					<div id="second_modal" class="second-modal">
+					  <div class="modal-content">
+					    <span class="second_button_close close">&times;</span>
+					    <p>Some text in the Modal..</p>
+					  </div>
+					</div>
+			</div>
+		</div>
+
+		<div class="middle-text-block">
+			<h1 class="centered-text">Решенията на темите от <a href="index.html">началната страница</a></h1>
+		</div>
+
+		<div class="right-side">
+			<div class="solution-card">
+				<h1>Lorem ipsum 3</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<button id="third_modal_button">Open</button>
+					<div id="third_modal" class="third-modal">
+					  <div class="modal-content">
+					    <span class="third_button_close close">&times;</span>
+					    <p>Some text in the Modal..</p>
+					  </div>
+					</div>
+			</div>
+			<br>
+			<div class="solution-card">
+				<h1>Lorem ipsum 4</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<button id="fourth_modal_button">Open</button>
+					<div id="fourth_modal" class="fourth-modal">
+					  <div class="modal-content">
+					    <span class="fourth_button_close close">&times;</span>
+					    <p>Some text in the Modal..</p>
+					  </div>
+					</div>
+			</div>
+		</div>
 	</div>
 
+<script src="scripts/solution_script.js"></script>
 </body>
 </html>

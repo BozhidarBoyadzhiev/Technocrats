@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+button {
+	cursor: pointer;
+}
+
 /* WEBSITE CSS END */
 
 /* HOMEPAGE CSS START */
@@ -89,6 +93,16 @@ body {
     display:inline-block;
     position:relative;
     width:49%;
+}
+
+.column-left {
+	display: inline-block;
+	float: left;
+}
+
+.column-right {
+	display: inline-block;
+	float: right;
 }
 
 /* HOMEPAGE CSS END */
@@ -253,9 +267,6 @@ hr {
   position: absolute;
   top: 500px;
   left: 60px;
- }
- #contacts {
- 	color:white;
  }
 }
 

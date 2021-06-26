@@ -2,7 +2,7 @@ document.write(
 	"<ul>"
   		+"<li>"
   			+"<a href='index.html' class='navbar-button'>"
-  			+"<p>Начало</p>"
+  			+"Начало"
   			+"<div class='wave'></div>"
   			+"</a>"	
   		+"</li>"
