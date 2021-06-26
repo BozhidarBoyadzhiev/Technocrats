@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<script src="scripts/main_script.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/contacts-style.css">
 </head>
 
 <body>
@@ -14,8 +14,28 @@
 		<script src="scripts/navbar.js"></script>
 	</nav>
 	<div>
-		
+		<form id="contact-page">
+			<input type="text" id="name-text" class="text-field" placeholder="Първо име">
+			<br>
+			<input type="text" id="surname-text" class="text-field" placeholder="Фамилно име">
+			<br>
+			<input type="email" id="email-text" class="text-field" placeholder="Електронна поща">
+			<br>
+			<textarea cols="22" id="notes-text" class="text-field notes" placeholder="Забележки"></textarea>
+			<br>
+			<button type="submit" class="submit" onclick="succes_message()">Изпрати</button>
+			<div id="succes_message">Вие успешно изпратихте e-mail!</div>
+			<div id="input_error_message">Трябва да напишете повече от 3 символа!</div>
+			<div id="notes_error_message">Трябва забележката към нас да е по-дълга от 15 символа!</div>
+		</form>
+
+	<div class="row">
+		<a class="facebook-link" href="https://www.facebook.com/" target="_blank"><img class="facebook-icon" src="Images/facebook.png" alt="Facebook Icon"></a>
+		<p id="social-media-text">Посетете нашите социални мрежи</p>
+		<a class="instagram-link" href="https://www.instagram.com/" target="_blank"><img class="instagram-icon" src="Images/instagram.png" alt="Instagram Icon"></a>
+	</div>
 	</div>
 
+<script src="scripts/main_script.js"></script>
 </body>
 </html>

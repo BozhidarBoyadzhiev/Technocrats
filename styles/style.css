@@ -109,11 +109,11 @@ li {
 }
 
 
-li a {
+li, .navbar-button {
   display: block;
 }
 
-a {
+.navbar-button {
 	position: relative;
 	padding: 20px 50px;
 	border: 1px solid #000;
@@ -126,18 +126,22 @@ a {
 	text-align: center;
 }
 
-a:hover {
+.navbar-button:hover {
 	background-color: lightblue;
 	transition: 2s;
 }
 
-#solutions, #contacts {
+#solutions, #contacts, #aboutus {
 	position: absolute;
 	margin: 0;
 }
 
+#aboutus {
+	bottom: 30px;
+}
+
 #solutions {
-	left: 27px;
+	left: 35px;
 }
 #contacts {
 	left: 34px;
