@@ -82,14 +82,12 @@
 /* RESPONSIBLE FOR MOBILE DEVICES START */
 
 @media only screen and (max-width: 510px) {
-  .left-float {
-    float: none;
-    width: 95%;
+  img {
+    width: 95%; 
   }
-
-  .right-float {
+  
+  .left-float, .right-float {
     float: none;
-    width: 95%;
   }
 
   .modal-content {
