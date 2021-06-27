@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/popup-window-style.css">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
 	</nav>
 	<div class="home">
 		<div class="other-side">
-			<h1>OTBOR PGKPI</h1>
+			<h1>Lorem ipsum</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut commodo lectus, non dapibus risus. In faucibus sagittis eros ut maximus. Phasellus pharetra odio id luctus scelerisque. In ac sollicitudin mi. Nunc id neque eget tellus maximus tristique eu lacinia neque. Cras semper est velit, finibus mollis tellus viverra in. Morbi sodales lorem ac velit convallis mollis. Pellentesque feugiat venenatis nibh vel lacinia. Donec in velit mauris.</p>
 		</div>
 			<div class="sideway">
@@ -22,31 +23,55 @@
 					<div class="card" style="background-image: url('Images/water-sources.png'); color: black;">
 						<h1>Card 1</h1>
 						<p class="card-one-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut commodo lectus, non dapibus risus. In faucibus sagittis eros ut maximus. </p>
-						<button>Click me</button>
+						<button id="first_modal_button" class="modal-button">Прочети още</button>
+						<div id="first_modal" class="first-modal modal">
+						  <div class="modal-content">
+						    <span class="first_button_close close">&times;</span>
+						    <p>Some text in the Modal..</p>
+						  </div>
+						</div>
 					</div>
 					<br>
 					<div class="card" style="background-image: url('Images/lakes.png');">
 						<h1>Card 2</h1>
 						<p class="card-two-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut commodo lectus, non dapibus risus. In faucibus sagittis eros ut maximus. </p>
-						<button>Click me</button>		
+						<button id="second_modal_button" class="modal-button">Прочети още</button>
+						<div id="second_modal" class="second-modal modal">
+						  <div class="modal-content">
+						    <span class="second_button_close close">&times;</span>
+						    <p>Some text in the Modal..</p>
+						  </div>
+						</div>	
 					</div>
 				</div>
 				<div class="column">
 					<div class="card" style="background-image: url('Images/fish-Mihailca.png');">
 						<h1>Card 3</h1>
 						<p class="card-three-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut commodo lectus, non dapibus risus. In faucibus sagittis eros ut maximus. </p>
-						<button>Click me</button>					
+						<button id="third_modal_button" class="modal-button">Прочети още</button>
+						<div id="third_modal" class="third-modal modal">
+						  <div class="modal-content">
+						    <span class="third_button_close close">&times;</span>
+						    <p>Some text in the Modal..</p>
+						  </div>
+						</div>					
 					</div>
 					<br>
 					<div class="card" style="background-image: url('Images/water-sources-two.png');">
 						<h1>Card 4</h1>
 						<p class="card-four-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut commodo lectus, non dapibus risus. In faucibus sagittis eros ut maximus. </p>
-						<button>Click me</button>				
+						<button id="fourth_modal_button" class="modal-button">Прочети още</button>
+						<div id="fourth_modal" class="fourth-modal modal">
+						  <div class="modal-content">
+						    <span class="fourth_button_close close">&times;</span>
+						    <p>Some text in the Modal..</p>
+						  </div>
+						</div>				
 					</div>				
 				</div>
 			</div>
 	</div>
 
-<script src="scripts/index_script.js"></script>
+<script src="scripts/popup_window_script.js"></script>
 </body>
 </html>

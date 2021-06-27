@@ -1,3 +1,12 @@
+/* CSS FONTS IMPORT START*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
+
+/* CSS FONTS IMPORT END*/
+
+/* SOLUTION PAGE CSS START */
+
 .left-side {
 	display: inline;
 	float: left;
@@ -14,10 +23,18 @@
 	height: 300px;
 	padding: 20px;
 	text-align: center;
+	border-radius: 5%;
+	border: 1px solid black;
+}
+
+.solution-card > h1 {
+	font-family: 'Righteous', cursive;
 }
 
 .solution-card > p {
 	margin-top: 30%;
+	font-weight: bolder;
+	font-family: 'IM Fell Great Primer', serif;
 }
 
 .middle-text-block {
@@ -32,77 +49,50 @@
     right:0;
     margin:auto auto;
     text-align:center;
+    font-family: Georgia, sans-serif;
+    letter-spacing: 1px;
 }
 
-.first-modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  background-color: rgba(0,0,0,0.4);
+.centered-text > a{
+	color: black;
 }
 
-.second-modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  background-color: rgba(0,0,0,0.4);
+/* SOLUTION PAGE CSS END */
+
+/* RESPONSIBLE FOR MOBILE DEVICES START */
+
+@media only screen and (max-width: 510px) {
+	.left-side {
+		display: block;
+		float: none;
+		margin-bottom: 5%;
+	}
+
+	.right-side {
+		float: none;	
+	}
+
+	.content {
+		width: 75%;
+  		margin: 0 auto;
+	}
+
+	.middle-text-block {
+		position: absolute;
+		top: -40%;
+		left: 1%;
+	}
+
+	.centered-text {
+		position: relative;
+		font-family: Georgia, sans-serif;
+	    letter-spacing: 1px;
+	}
+
+	.responsible-mobile {
+		display: block;
+		margin-top: 52%;
+	}
 }
 
-.third-modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  background-color: rgba(0,0,0,0.4);
-}
-
-.fourth-modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  background-color: rgba(0,0,0,0.4);
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover, .close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
+/* RESPONSIBLE FOR MOBILE DEVICES END */
