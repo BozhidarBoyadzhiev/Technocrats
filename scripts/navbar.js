@@ -8,7 +8,7 @@ document.write(
   		+"</li>"
   		+"<li>"
   			+"<a href='solutions.html' class='navbar-button'>"
-  			+"<p id='solutions'>Решения</p>"
+  			+"<p id='solutions'>Опазване</p>"
   			+"<div class='wave'></div>"
   			+"</a>"	
   		+"<li>"
