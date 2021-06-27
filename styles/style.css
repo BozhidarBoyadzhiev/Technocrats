@@ -67,19 +67,6 @@ button {
 	font-family: 'IM Fell Great Primer', serif;
 }
 
-.card-one-text {
-	margin-top: 35px;
-}
-.card-two-text {
-	margin-top: 35px;
-}
-.card-three-text {
-	margin-top: 50px;
-}
-.card-four-text {
-	margin-top: 35px;
-}
-
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }

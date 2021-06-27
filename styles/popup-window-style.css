@@ -1,6 +1,8 @@
 /* CSS FONTS IMPORT START*/
 
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap');
 
 /* CSS FONTS IMPORT END*/
 
@@ -37,21 +39,66 @@
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  text-align: center;
+  height: 72%;
+  overflow-y: auto;
   color: black;
+  word-wrap: break-word;
+}
+
+.modal-content > h1 {
+  font-family: 'Playfair Display SC', serif; 
+  text-align: center;
+}
+
+.modal-content > p {
+  font-family: 'Varela Round', sans-serif;
+  text-align: justify;
+}
+
+.left-float {
+  float: left;
+  padding: 10px;
+}
+
+.right-float {
+  float: right;
+  padding: 10px;
 }
 
 .close {
-  color: #aaaaaa;
+  color: black;
   float: right;
-  font-size: 28px;
+  font-size: 48px;
   font-weight: bold;
 }
 
 .close:hover, .close:focus {
-  color: #000;
   text-decoration: none;
   cursor: pointer;
 }
 
 /* MODAL STYLE END */
+
+/* RESPONSIBLE FOR MOBILE DEVICES START */
+
+@media only screen and (max-width: 510px) {
+  .left-float {
+    float: none;
+    width: 95%;
+  }
+
+  .right-float {
+    float: none;
+    width: 95%;
+  }
+
+  .modal-content {
+    height: 77%;
+  }
+
+  .modal-reservers {
+    height: 100%;
+  }
+}
+
+/* RESPONSIBLE FOR MOBILE DEVICES END */
